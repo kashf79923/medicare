@@ -1,0 +1,301 @@
+/* ------style------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+:root
+{
+    --color: #fdd73f;
+    --color2: #f7f2b9;
+    --color3: #3d3700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 248);
+}
+
+/* ------navbar------ */
+
+.header
+{
+    height: 100vh;
+}
+
+.navbar-style
+{
+    box-shadow: 0.5px 10px var(--color2);
+    background-color: #3d37004f;
+}
+
+.logo
+{
+    height: 70px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+li a
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    margin-top: 25px;
+}
+
+.bold
+{
+    font-weight: bolder;
+}
+
+/* ------index.html------ */
+
+.icon-bar
+{
+    background-color: var(--color3);
+}
+
+.smalltext
+{
+    font-family: 'Raleway';
+    color: var(--color);
+    font-size: 2em;
+}
+
+.bigtext1
+{
+    font-size: 6em;
+    color: var(--color);
+    font-family: 'Raleway';
+    margin-top: 2em;
+}
+
+.bigtext2
+{
+    font-size: 8em;
+    color: var(--color);
+    font-family: 'Raleway';
+}
+
+a.btn
+{
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a.btn:hover
+{
+    background: var(--color2);
+    border: none;
+    color: var(--color3);
+    box-shadow: 5px, 5px, 10px rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+a.btn-1
+{
+    background-color: var(--color);
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding: 8px;
+}
+
+a.btn-2
+{
+    background-color: whitesmoke;
+    color: var(--color3);
+    border-color: var(--color3);
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding: 8px;   
+}
+
+img.rider
+{
+    height: 25em;
+    margin-top: 12em;
+    margin-left: 15em;
+}
+
+/* ------sign-up.html------ */
+
+.user
+{
+    height: 10em;
+    margin-left: 38%;
+}
+
+.input-group
+{
+    margin-top: 2em;
+    font-family: 'Raleway';
+}
+
+.title
+{
+    font-family: 'Raleway';
+    background-color: white;
+    font-size: 2em;
+    text-align: center;
+    margin: 0em;
+    font-weight: bold;
+}
+
+a.btn-3
+{
+    background-color: whitesmoke;
+    color: var(--color3);
+    border-color: var(--color3);
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding: 8px;   
+    margin-left: 37%;
+}
+
+/* ------pharmacies.html------ */
+
+.pharma
+{
+    font-family: 'Raleway';
+}
+
+/* ------about-us.html------ */
+
+.heading1
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 35px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.heading2
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 35px;    
+}
+
+.heading3
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 35px;
+    margin-top: 2em;
+}
+
+.heading4
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 35px;
+}
+
+.heading5
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 35px;
+}
+
+.para1
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
+}
+
+.para
+{
+    color: var(--color3);
+    font-family: 'Raleway';
+    font-size: 20px;
+}
+
+.drug
+{
+    height: 10em;
+    margin-left: 45%;
+    margin-top: 1em;
+}
+
+/* ------faqs.html------ */
+
+.faqs
+{
+    height: 10em;
+    margin-left: 45.5%;
+}
+
+.th-brdr
+{
+    border-style: solid;
+    border-color: var(--color2);
+    column-width: 100em;
+    padding: 1em;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+.brdr
+{
+    border-style: solid;
+    border-color: var(--color2);
+    column-width: 100em;
+    padding: 1em;
+    font-family: 'Raleway';
+}
+
+.tbl
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2em;
+}
+
+/* ------contact-us.html------ */
+
+.findus
+{
+    font-family: 'Raleway';
+    color: var(--color3);
+    margin-top: 5em;
+
+}
+
+.contactus
+{
+    font-family: 'Raleway';
+    color: var(--color3);
+}
+
+.pin 
+{
+    height: 30px;
+}
+
+.pins
+{
+    height: 23px;
+}
+
+.col-1
+{
+    margin-top: 1em;
+}
+
+#column
+{
+    column-gap: 3em;
+}
+
+img.pharm-logo
+{
+    margin-left: 43%;
+    height: 10em;
+}
